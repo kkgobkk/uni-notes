@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper,openany]{book}
+
+% Pacchetti utili
+\usepackage{amsmath,amssymb}
+\usepackage[utf8]{inputenc} % codifica UTF-8
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}       % per inserire loghi/immagini
+\usepackage{setspace}       % per spaziatura
+\usepackage{geometry}       % margini
+\usepackage[export]{adjustbox}
+\geometry{top=3cm,bottom=3cm,left=3cm,right=3cm}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+{\Large \textsc{Università degli Studi di Torino}}\\[0.5cm]
+{\large Dipartimento di Informatica}\\[3cm]
+
+{\Huge \bfseries Appunti di probabilità
+e statistica}\\[0.5cm]
+
+{\large Autore}\\
+{\Large Francesco Martino}\\[1.5cm]
+
+{\large Docente del corso}\\
+{\Large io stesso}\\[3cm]
+
+{\large Anno Accademico 2025--2026}
+
+\vfill
+\end{titlepage}
+
+\chapter{Teoria}
+
+\section{Elementi di Probabilità e Statistica: Lezione 1 del 16-09-2025}
+
+\subsection{Introduzione alla probabilità}
+
+La probabilità riguarda qualsiasi fenomeno non facilmente prevedibile
+(lancio di dadi o monete, tempi di attesa, eccetera).
+Il termine che descrive la proprietà di queste situazioni è \emph{aleatorietà}.
+Il fatto che questi fenomeni non siano facilmente prevedibili non vuol dire
+che siano effettivamente casuali, ma solo che non abbiamo tutte le
+informazioni necessarie per poterli prevedere accuratamente.
+
+\textbf{Definizione.} Un insieme è una collezione di oggetti denominati elementi
+dell'insieme. Un insieme è denominato da una lettera latina
+maiuscola e i suoi elementi sono elencati esplicitamente tra parentesi graffe
+o determinati con una proprietà.
+
+Esempio:
+
+\[
+S = \{x_1, x_2, x_3\} = \{x_2, x_1, x_3\} = \{x_1, x_1, x_1, x_2, x_3\}
+\]
+
+\[
+S = \{x \mid P(x) \text{ è soddisfatta}\}
+\]
+
+\[
+\{x \in \mathbb{N} \mid x \leq 3\} = \{0, 1, 2, 3\}
+\]
+
+(anche se i numeri naturali sono a volte definiti a partire da 1)
+
+\textbf{Altre definizioni:}
+\begin{itemize}
+\item La cardinalità dell'insieme $S$ è il numero $|S|$, finito o infinito, di elementi di $S$.
+\item Un insieme $S$ è numerabile $\Leftrightarrow$ esiste una funzione iniettiva $f: S \to \mathbb{N}$.
+\end{itemize}
+
+L'in
